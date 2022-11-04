@@ -1,0 +1,1 @@
+Arquivo para testar e treinar o Git e o processo de fazer o commit do gitHub
