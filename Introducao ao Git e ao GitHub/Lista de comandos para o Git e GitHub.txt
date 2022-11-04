@@ -1,0 +1,35 @@
+Lista de comandos básicos utilizados para o Terminal Git Bash
+
+dir - utilizado para conhecer os arquivos presentes naquela pasta;
+
+cd - utilizado para mudar de diretório
+	Utilizações importantes
+	cd .. utilizado para sair da pasta
+	cd /nome da pasta/ usado para ir diretamente para uma pasta naquele mesmo diretório
+
+ls - lista de arquivos presentes na pasta
+
+ctrl + l ou F8 - usado para limpar a tela
+
+Lista de comandos básicos utilizados no Git Bash
+
+git init para inicializar e possibilitar que o git possa rodar e inicializar o código
+
+git config --global user.mail "email.pessoal@exemplo.com.br"
+
+git config --global user.nome "nome usado no gitHub de preferencia"
+	para excluir git config --global unset user.email
+	para excluir git config --global unset user.nome
+
+git add * - para adicionar todos os arquivos da pasta
+	git add arquivo.extensao - para fazer o commit do arquivo
+	git add /pasta/- para fazer o commit de uma pasta completa
+
+git commit -m "Colocar uma informação sobre esse commit específico" - para puxar o arquivo e preparar para sincronizar com o repositório remoto
+
+git push origin main - para fazer upload
+	OBS origin e main são variaveis, podem mudar. mas o origin é uma espécie de padronização, assim como o main, que pode colocar como master, também.
+
+git pull origin main - usado quando ocorre erro de sincronização ou problemas de incompatibilidade na mesma linha. Literalmente, o arquivo é puxado para a máquina e são feitas as mudanças manualmente.
+
+git status - muito usado para saber se há alguma alteração ou não
